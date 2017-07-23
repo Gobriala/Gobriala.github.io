@@ -9,6 +9,10 @@ p, li{
     font-family: 'Slabo 27px', serif;
 }
 
+#headshot {
+    border-radius: 50%;
+}
+
 .project {
 background-color: grey;
 width: 543px;
@@ -35,9 +39,7 @@ header img {
     border-radius: 15px;
 }
 
-.img-circle {
-    border-radius: 50%;
-}
+
 
 .main-content {
     background-color: #808f85;
