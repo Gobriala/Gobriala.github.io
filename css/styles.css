@@ -9,7 +9,7 @@ p, li{
     font-family: 'Slabo 27px', serif;
 }
 
-#headshot {
+.img-circle {
     border-radius: 50%;
 }
 
