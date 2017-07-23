@@ -1,8 +1,8 @@
-@import url {'https://fonts.googleapis.com/css?family=Montserrat|Slabo+27px'}
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Slabo+27px');
 
 h1, h2, h3{
     font-family: 'Montserrat', sans-serif;
-    color: #FF530D;
+    color: #3C250A;
 }
 
 p, li{
@@ -14,9 +14,8 @@ background-color: grey;
 width: 543px;
 }
 
-body{
-    background: url ('../images/abstract-mosaic-background.png') no-repeat
-    center center fixed;
+body {
+    background: url('../images/abstract-mosaic-background.png') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -26,20 +25,20 @@ body{
 }
 
 header, footer{
-    background-color: #595959;
-    text-align: center
-    padding: 15px 30 px;
+    background-color:#595959;
+    text-align: center;
+    padding: 15px 30px;
+}
+
+header img {
+    width: 50%;
+    border-radius: 15px;
 }
 
 .main-content {
     background-color: #808f85;
     padding: 10 px 0;
     border-top: 2px solid#cfd11a;  
-}
-
-header img {
-    width: 50%;
-    border-radius: 15px;
 }
 
 .main-content ul {
@@ -49,18 +48,19 @@ header img {
     text-align: center;
 }
 
-.main-content ul li{
+.main-content ul li {
     padding: 10px;
     display: inline;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 a {
     color: #CFD11A;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.main-content{
+.main-content p {
     margin: 10px 40px;
 }
 
@@ -87,7 +87,7 @@ a {
     float: left;
 }
 
-.project h2{
+.project h2 {
     text-align: center;
 }
 
