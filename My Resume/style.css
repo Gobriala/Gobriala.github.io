@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Bellefair|Lato');
+
+#header {
+    /* do this stuff to the id of header */
+    text-align: center;
+}
+
+h1, h2, h3{    
+    /* do this stuff to the id of header */
+    font-family: 'Lato', sans-serif;
+}
+
+p, li{
+    font-family: 'Bellefair', serif;
+    font-size: 16px;
+}
+
+h1 {
+    color: blue;
+    font-size: 18px;
+}
+
+.main-content {
+    width: 960px;
+    margin: 0 auto;
+}
